@@ -1,5 +1,5 @@
 <template>
-    <div class=" flex flex-col justify-around items-center ">
+    <div class=" flex flex-col justify-around items-center rounded-lg overflow-hidden">
       <div class="h-14 w-full flex justify-around items-center border-b hover:border-transparent duration-200 border-mainPurple hover:bg-PurpleHover cursor-pointer">
         <div
           class="h-[40px] duration-200 border-transparent hover:border-mainYellow border-2 cursor-pointer min-w-[40px] min-h-[40px] w-[40px] overflow-hidden rounded-full flex justify-center items-center"
