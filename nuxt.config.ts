@@ -9,6 +9,8 @@ export default defineNuxtConfig({
     },
   },
   modules: [
+    '@vueuse/motion/nuxt',
+    '@formkit/auto-animate/nuxt',
     "@formkit/auto-animate",
     "@nuxtjs/tailwindcss",
     "@pinia/nuxt",
