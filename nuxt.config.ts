@@ -20,6 +20,14 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "nuxt-icon",
     "nuxt-seo-experiments",
-    "@nuxtjs/seo"
-  ]
+    "@nuxtjs/seo",
+    '@nuxtjs/apollo'
+  ],
+  apollo: {
+    clients: {
+      default: {
+        httpEndpoint: 'http://localhost:3000/graphql'
+      }
+    },
+  },
 })
