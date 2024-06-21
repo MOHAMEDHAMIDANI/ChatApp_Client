@@ -23,6 +23,7 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
     '@nuxtjs/apollo'
   ],
+  
   apollo: {
     clients: {
       default: {
